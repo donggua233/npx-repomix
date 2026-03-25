@@ -1,3 +1,14 @@
+# =========================
+# Backend (Spring Boot / Java)
+# =========================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# =========================
+# Frontend (Node.js)
+# =========================
 # Logs
 logs
 *.log
@@ -12,13 +23,44 @@ dist
 dist-ssr
 *.local
 
-# Editor directories and files
+# =========================
+# IDEs and Editors
+# =========================
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
